@@ -1,0 +1,131 @@
+body {
+    background-color: white
+
+}
+#tweetalen li {
+    list-style: none;
+}
+#tweetalen a {
+    text-decoration: none;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    width:15%;
+}
+.column {
+    width: 300px;
+}
+
+#welcomeIMG{
+    box-shadow:  1px 2px 11px 0px;
+}
+
+header {
+    display:flex;
+    justify-content:center;
+}
+
+.navigatie {
+    /* border-bottom:2px dashed yellow;
+    width:100%; */
+}
+
+.nav-list {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-list li {
+    padding:10px;
+    list-style: none;
+    
+}
+.nav-list li a {
+    padding:20px;
+    text-decoration: none;
+    color: #067ab4;
+    font-weight:700;
+    font-family: Verdana;
+}
+.nav-list li a:hover {
+    color: white;
+    
+}
+/* FILTER  */
+.filter-lists, .filter-lists ul {
+    list-style: none;
+}
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  color: blue;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  color: lightblue;
+  background-color: white;
+}
+
+div {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+}
+
+
