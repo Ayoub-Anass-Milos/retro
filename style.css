@@ -31,8 +31,8 @@ header {
 }
 
 .navigatie {
-    border-bottom:2px dashed yellow;
-    width:100%; 
+    /* border-bottom:2px dashed yellow;
+    width:100%; /
 }
 
 .nav-list {
