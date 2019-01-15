@@ -223,4 +223,8 @@ body {
 .right {
   left: 0%;
   }
+.main{
+  height: 12px;
+}
+
 }
