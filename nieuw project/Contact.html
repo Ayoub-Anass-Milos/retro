@@ -1,0 +1,62 @@
+ <!DOCTYPE html>
+<html>
+<body background="background.jpg">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Easy-Drive">
+        <meta name="author" content="Ayoub">
+
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title> 
+    </head>
+    <body>
+        <header>
+            <nav class="navigatie">
+                <center><ul class="nav nav-list">
+                    <li id="logo"><img src="logo.png" alt="" id="logo" onclick='document.location.href ="index.html"'></li>&nbsp;
+                    <li id="home"><a href="index.html">Home</a></li> &nbsp;
+                    <li><a href="contactpagina.html">contactpagina</a></li>
+                    &nbsp;
+                    <li><a href="Online CV.html">Over ons</a></li>  &nbsp;
+                    <li><a href="LinkedIn.html">informatie</a></li>
+                    &nbsp;
+                    <li><a href="LinkedIn.html">feed-back</a></li> &nbsp;
+                    <li><a href="Log-in.html">Log-in</a></li> &nbsp;
+                </ul></center>
+        </header>
+        <main>
+         <hr width="100%" color="white" size="4" />
+
+        <h3>Contact formulier</h3>
+
+        <div class="container">
+                <form action="/action_page.php">
+                <label for="fname">Voornaam</label>
+                <input type="text" id="fname" name="firstname" placeholder="Voornaam..">
+
+                <label for="lname">Achternaam</label>
+                <input type="text" id="lname" name="lastname" placeholder="Achternaam..">
+
+                <label for="country">Land</label>
+                <select id="country" name="country">
+                <option value="Nederland">Nederland</option>
+                <option value="Belgie">Belgie</option>
+                <option value="Overig">Overig</option>
+                </select>
+
+                <label for="subject">Subject</label><br>
+                <textarea id="subject" name="subject" placeholder="Tekst.." style="height:200px" style="width: 100px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        </main>
+        <footer>
+    
+        </footer>
+
+    </body>
+
+</html>
